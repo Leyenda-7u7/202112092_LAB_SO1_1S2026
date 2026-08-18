@@ -1,0 +1,36 @@
+# Editores
+.vscode/
+.idea/
+
+# Temporales
+*.tmp
+*.swp
+*~
+
+# Logs
+*.log
+
+# Binarios compilados
+**/codigo/api1/api1
+**/codigo/api2/api2
+**/codigo/api3/api3
+
+# Variables y secretos
+.env
+.env.*
+*.pem
+*.key
+*.crt
+
+# Datos persistentes de Zot
+**/zot-registry/
+**/data/
+
+# Máquinas virtuales e instaladores
+*.qcow2
+*.img
+*.iso
+
+# Claves SSH privadas
+id_rsa
+id_ed25519

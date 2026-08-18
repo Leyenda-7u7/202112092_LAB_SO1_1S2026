@@ -1,0 +1,17 @@
+[Unit]
+Description=API3 - Proyecto Sistemas Operativos
+
+[Container]
+Image=localhost/api3-202112092:v1
+ContainerName=api3
+PublishPort=8083:8080
+Environment=CARNET=202112092
+Environment=API1_URL=http://192.168.122.101:8081
+Environment=API2_URL=http://192.168.122.101:8082
+Pull=never
+
+[Service]
+Restart=always
+
+[Install]
+WantedBy=default.target

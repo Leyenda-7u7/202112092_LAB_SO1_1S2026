@@ -1,6 +1,6 @@
 # Proyecto 1 - Sistemas Operativos 1
 
-**Nombre:** BRANDON EDUARDO PABLO GARCIA  
+**Nombre:** Brandon Eduardo Pablo Garcia  
 **Carnet:** 202112092  
 **Sistema operativo utilizado en las VMs:** Ubuntu Server 24.04 LTS
 
